@@ -403,6 +403,14 @@ h3,
   font-size: 1.2rem;
 }
 
+.member-subtitle {
+  margin: 14px 0 8px;
+  color: var(--navy-deep);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .member-list {
   margin: 0;
   padding-left: 20px;
