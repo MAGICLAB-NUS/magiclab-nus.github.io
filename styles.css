@@ -445,6 +445,41 @@ h3,
   color: var(--muted);
 }
 
+.robot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.robot-card {
+  padding: 18px;
+  background: var(--mist);
+  border: 1px solid var(--line);
+  text-align: center;
+}
+
+.robot-card img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 0 12px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.robot-card h3 {
+  margin: 0;
+  color: var(--navy-deep);
+  font-size: 1.05rem;
+}
+
+.robot-more {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: var(--paper);
@@ -467,6 +502,7 @@ h3,
   .hero-grid,
   .content-row,
   .member-grid,
+  .robot-grid,
   .team-pi,
   .team-card,
   .bottom-grid {
